@@ -9,6 +9,7 @@ target
 *.war
 *.ear
 .idea
+out/
 *.iml
 *.swp
 *.log
