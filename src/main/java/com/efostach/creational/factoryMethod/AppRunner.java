@@ -1,6 +1,6 @@
-package com.efostach.factoryMethod;
+package com.efostach.creational.factoryMethod;
 
-public class FactoryMethod {
+class AppRunner {
     public static void main(String[] args) {
        MachineFactory machineFactory = createMachineBySpecialty("tea");
        Machine machine = machineFactory.createMachine();

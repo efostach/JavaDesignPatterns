@@ -1,6 +1,6 @@
-package com.efostach.factoryMethod;
+package com.efostach.creational.factoryMethod;
 
-public class CoffeeMachine implements Machine {
+class CoffeeMachine implements Machine {
 
     public void makeDrink() {
         System.out.println("Making coffee...");
