@@ -12,6 +12,5 @@ public class AppJava {
         while (iterator.hasNext()) {
             System.out.println(iterator.getNext().toString());
         }
-
     }
 }
