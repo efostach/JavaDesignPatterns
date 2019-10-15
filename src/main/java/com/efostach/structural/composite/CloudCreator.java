@@ -9,10 +9,10 @@ public class CloudCreator {
         CloudConfiguration storage= new StorageConfiguration();
         CloudConfiguration os = new OSConfiguration();
 
-        provider.aploadConfiguration(networking);
-        provider.aploadConfiguration(hardware);
-        provider.aploadConfiguration(storage);
-        provider.aploadConfiguration(os);
+        provider.uploadConfiguration(networking);
+        provider.uploadConfiguration(hardware);
+        provider.uploadConfiguration(storage);
+        provider.uploadConfiguration(os);
 
         provider.deployCloud();
     }

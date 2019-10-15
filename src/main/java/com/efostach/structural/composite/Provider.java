@@ -6,7 +6,7 @@ import java.util.List;
 public class Provider {
     private List<CloudConfiguration> configList = new ArrayList<>();
 
-    public void aploadConfiguration(CloudConfiguration config) {
+    public void uploadConfiguration(CloudConfiguration config) {
         configList.add(config);
     }
 
